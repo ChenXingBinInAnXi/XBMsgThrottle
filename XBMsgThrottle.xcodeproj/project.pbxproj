@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5235F80220F3057B00DBDD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5235F80120F3057B00DBDD30 /* AppDelegate.m */; };
+		5235F80520F3057B00DBDD30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5235F80420F3057B00DBDD30 /* ViewController.m */; };
+		5235F80820F3057B00DBDD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5235F80620F3057B00DBDD30 /* Main.storyboard */; };
+		5235F80A20F3058200DBDD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5235F80920F3058200DBDD30 /* Assets.xcassets */; };
+		5235F80D20F3058200DBDD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5235F80B20F3058200DBDD30 /* LaunchScreen.storyboard */; };
+		5235F81020F3058200DBDD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5235F80F20F3058200DBDD30 /* main.m */; };
+		5235F81A20F3058200DBDD30 /* XBMsgThrottleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5235F81920F3058200DBDD30 /* XBMsgThrottleTests.m */; };
+		5235F82520F3058200DBDD30 /* XBMsgThrottleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5235F82420F3058200DBDD30 /* XBMsgThrottleUITests.m */; };
+		5235F83520F3066600DBDD30 /* XBMsgThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5235F83420F3066600DBDD30 /* XBMsgThrottle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5235F81620F3058200DBDD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5235F7F520F3057B00DBDD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5235F7FC20F3057B00DBDD30;
+			remoteInfo = XBMsgThrottle;
+		};
+		5235F82120F3058200DBDD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5235F7F520F3057B00DBDD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5235F7FC20F3057B00DBDD30;
+			remoteInfo = XBMsgThrottle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5235F7FD20F3057B00DBDD30 /* XBMsgThrottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBMsgThrottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5235F80020F3057B00DBDD30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5235F80120F3057B00DBDD30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5235F80320F3057B00DBDD30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5235F80420F3057B00DBDD30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5235F80720F3057B00DBDD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5235F80920F3058200DBDD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5235F80C20F3058200DBDD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5235F80E20F3058200DBDD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5235F80F20F3058200DBDD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5235F81520F3058200DBDD30 /* XBMsgThrottleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBMsgThrottleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5235F81920F3058200DBDD30 /* XBMsgThrottleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBMsgThrottleTests.m; sourceTree = "<group>"; };
+		5235F81B20F3058200DBDD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5235F82020F3058200DBDD30 /* XBMsgThrottleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBMsgThrottleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5235F82420F3058200DBDD30 /* XBMsgThrottleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBMsgThrottleUITests.m; sourceTree = "<group>"; };
+		5235F82620F3058200DBDD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5235F83320F3066600DBDD30 /* XBMsgThrottle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBMsgThrottle.h; sourceTree = "<group>"; };
+		5235F83420F3066600DBDD30 /* XBMsgThrottle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBMsgThrottle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5235F7FA20F3057B00DBDD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5235F81220F3058200DBDD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5235F81D20F3058200DBDD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5235F7F420F3057B00DBDD30 = {
+			isa = PBXGroup;
+			children = (
+				5235F7FF20F3057B00DBDD30 /* XBMsgThrottle */,
+				5235F81820F3058200DBDD30 /* XBMsgThrottleTests */,
+				5235F82320F3058200DBDD30 /* XBMsgThrottleUITests */,
+				5235F7FE20F3057B00DBDD30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5235F7FE20F3057B00DBDD30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5235F7FD20F3057B00DBDD30 /* XBMsgThrottle.app */,
+				5235F81520F3058200DBDD30 /* XBMsgThrottleTests.xctest */,
+				5235F82020F3058200DBDD30 /* XBMsgThrottleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5235F7FF20F3057B00DBDD30 /* XBMsgThrottle */ = {
+			isa = PBXGroup;
+			children = (
+				5235F83220F305B800DBDD30 /* XBMsgThrottle */,
+				5235F80020F3057B00DBDD30 /* AppDelegate.h */,
+				5235F80120F3057B00DBDD30 /* AppDelegate.m */,
+				5235F80320F3057B00DBDD30 /* ViewController.h */,
+				5235F80420F3057B00DBDD30 /* ViewController.m */,
+				5235F80620F3057B00DBDD30 /* Main.storyboard */,
+				5235F80920F3058200DBDD30 /* Assets.xcassets */,
+				5235F80B20F3058200DBDD30 /* LaunchScreen.storyboard */,
+				5235F80E20F3058200DBDD30 /* Info.plist */,
+				5235F80F20F3058200DBDD30 /* main.m */,
+			);
+			path = XBMsgThrottle;
+			sourceTree = "<group>";
+		};
+		5235F81820F3058200DBDD30 /* XBMsgThrottleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5235F81920F3058200DBDD30 /* XBMsgThrottleTests.m */,
+				5235F81B20F3058200DBDD30 /* Info.plist */,
+			);
+			path = XBMsgThrottleTests;
+			sourceTree = "<group>";
+		};
+		5235F82320F3058200DBDD30 /* XBMsgThrottleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5235F82420F3058200DBDD30 /* XBMsgThrottleUITests.m */,
+				5235F82620F3058200DBDD30 /* Info.plist */,
+			);
+			path = XBMsgThrottleUITests;
+			sourceTree = "<group>";
+		};
+		5235F83220F305B800DBDD30 /* XBMsgThrottle */ = {
+			isa = PBXGroup;
+			children = (
+				5235F83320F3066600DBDD30 /* XBMsgThrottle.h */,
+				5235F83420F3066600DBDD30 /* XBMsgThrottle.m */,
+			);
+			path = XBMsgThrottle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5235F7FC20F3057B00DBDD30 /* XBMsgThrottle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5235F82920F3058200DBDD30 /* Build configuration list for PBXNativeTarget "XBMsgThrottle" */;
+			buildPhases = (
+				5235F7F920F3057B00DBDD30 /* Sources */,
+				5235F7FA20F3057B00DBDD30 /* Frameworks */,
+				5235F7FB20F3057B00DBDD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBMsgThrottle;
+			productName = XBMsgThrottle;
+			productReference = 5235F7FD20F3057B00DBDD30 /* XBMsgThrottle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5235F81420F3058200DBDD30 /* XBMsgThrottleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5235F82C20F3058200DBDD30 /* Build configuration list for PBXNativeTarget "XBMsgThrottleTests" */;
+			buildPhases = (
+				5235F81120F3058200DBDD30 /* Sources */,
+				5235F81220F3058200DBDD30 /* Frameworks */,
+				5235F81320F3058200DBDD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5235F81720F3058200DBDD30 /* PBXTargetDependency */,
+			);
+			name = XBMsgThrottleTests;
+			productName = XBMsgThrottleTests;
+			productReference = 5235F81520F3058200DBDD30 /* XBMsgThrottleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5235F81F20F3058200DBDD30 /* XBMsgThrottleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5235F82F20F3058200DBDD30 /* Build configuration list for PBXNativeTarget "XBMsgThrottleUITests" */;
+			buildPhases = (
+				5235F81C20F3058200DBDD30 /* Sources */,
+				5235F81D20F3058200DBDD30 /* Frameworks */,
+				5235F81E20F3058200DBDD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5235F82220F3058200DBDD30 /* PBXTargetDependency */,
+			);
+			name = XBMsgThrottleUITests;
+			productName = XBMsgThrottleUITests;
+			productReference = 5235F82020F3058200DBDD30 /* XBMsgThrottleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5235F7F520F3057B00DBDD30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = chenxingbin;
+				TargetAttributes = {
+					5235F7FC20F3057B00DBDD30 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					5235F81420F3058200DBDD30 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5235F7FC20F3057B00DBDD30;
+					};
+					5235F81F20F3058200DBDD30 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5235F7FC20F3057B00DBDD30;
+					};
+				};
+			};
+			buildConfigurationList = 5235F7F820F3057B00DBDD30 /* Build configuration list for PBXProject "XBMsgThrottle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5235F7F420F3057B00DBDD30;
+			productRefGroup = 5235F7FE20F3057B00DBDD30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5235F7FC20F3057B00DBDD30 /* XBMsgThrottle */,
+				5235F81420F3058200DBDD30 /* XBMsgThrottleTests */,
+				5235F81F20F3058200DBDD30 /* XBMsgThrottleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5235F7FB20F3057B00DBDD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5235F80D20F3058200DBDD30 /* LaunchScreen.storyboard in Resources */,
+				5235F80A20F3058200DBDD30 /* Assets.xcassets in Resources */,
+				5235F80820F3057B00DBDD30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5235F81320F3058200DBDD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5235F81E20F3058200DBDD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5235F7F920F3057B00DBDD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5235F80520F3057B00DBDD30 /* ViewController.m in Sources */,
+				5235F83520F3066600DBDD30 /* XBMsgThrottle.m in Sources */,
+				5235F81020F3058200DBDD30 /* main.m in Sources */,
+				5235F80220F3057B00DBDD30 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5235F81120F3058200DBDD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5235F81A20F3058200DBDD30 /* XBMsgThrottleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5235F81C20F3058200DBDD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5235F82520F3058200DBDD30 /* XBMsgThrottleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5235F81720F3058200DBDD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5235F7FC20F3057B00DBDD30 /* XBMsgThrottle */;
+			targetProxy = 5235F81620F3058200DBDD30 /* PBXContainerItemProxy */;
+		};
+		5235F82220F3058200DBDD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5235F7FC20F3057B00DBDD30 /* XBMsgThrottle */;
+			targetProxy = 5235F82120F3058200DBDD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5235F80620F3057B00DBDD30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5235F80720F3057B00DBDD30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5235F80B20F3058200DBDD30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5235F80C20F3058200DBDD30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5235F82720F3058200DBDD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5235F82820F3058200DBDD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5235F82A20F3058200DBDD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN8VAKHNWG;
+				INFOPLIST_FILE = XBMsgThrottle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zghl.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5235F82B20F3058200DBDD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN8VAKHNWG;
+				INFOPLIST_FILE = XBMsgThrottle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zghl.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5235F82D20F3058200DBDD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBMsgThrottleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZGHL.XBMsgThrottleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBMsgThrottle.app/XBMsgThrottle";
+			};
+			name = Debug;
+		};
+		5235F82E20F3058200DBDD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBMsgThrottleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZGHL.XBMsgThrottleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBMsgThrottle.app/XBMsgThrottle";
+			};
+			name = Release;
+		};
+		5235F83020F3058200DBDD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBMsgThrottleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZGHL.XBMsgThrottleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBMsgThrottle;
+			};
+			name = Debug;
+		};
+		5235F83120F3058200DBDD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XBMsgThrottleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZGHL.XBMsgThrottleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBMsgThrottle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5235F7F820F3057B00DBDD30 /* Build configuration list for PBXProject "XBMsgThrottle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5235F82720F3058200DBDD30 /* Debug */,
+				5235F82820F3058200DBDD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5235F82920F3058200DBDD30 /* Build configuration list for PBXNativeTarget "XBMsgThrottle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5235F82A20F3058200DBDD30 /* Debug */,
+				5235F82B20F3058200DBDD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5235F82C20F3058200DBDD30 /* Build configuration list for PBXNativeTarget "XBMsgThrottleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5235F82D20F3058200DBDD30 /* Debug */,
+				5235F82E20F3058200DBDD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5235F82F20F3058200DBDD30 /* Build configuration list for PBXNativeTarget "XBMsgThrottleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5235F83020F3058200DBDD30 /* Debug */,
+				5235F83120F3058200DBDD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5235F7F520F3057B00DBDD30 /* Project object */;
+}
