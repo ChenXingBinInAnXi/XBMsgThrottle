@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:XBMsgThrottle.xcodeproj">
+      location = "self:MsgDemo.xcodeproj">
    </FileRef>
 </Workspace>

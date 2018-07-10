@@ -1,18 +1,18 @@
 //
-//  XBMsgThrottleUITests.m
-//  XBMsgThrottleUITests
+//  MsgDemoUITests.m
+//  MsgDemoUITests
 //
-//  Created by chenxingbin on 2018/7/9.
+//  Created by chenxingbin on 2018/7/10.
 //  Copyright © 2018年 chenxingbin. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface XBMsgThrottleUITests : XCTestCase
+@interface MsgDemoUITests : XCTestCase
 
 @end
 
-@implementation XBMsgThrottleUITests
+@implementation MsgDemoUITests
 
 - (void)setUp {
     [super setUp];

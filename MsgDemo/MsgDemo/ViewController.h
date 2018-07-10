@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  XBMsgThrottle
+//  MsgDemo
 //
-//  Created by chenxingbin on 2018/7/9.
+//  Created by chenxingbin on 2018/7/10.
 //  Copyright © 2018年 chenxingbin. All rights reserved.
 //
 
