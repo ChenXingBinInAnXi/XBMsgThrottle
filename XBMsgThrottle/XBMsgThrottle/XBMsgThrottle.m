@@ -10,10 +10,6 @@
 #import <objc/message.h>
 #import <objc/runtime.h>
 
-
-
-
-
 @interface XBTargetInfo : NSObject
 @property (nonatomic,strong) NSMutableDictionary *selectorItems;
 @property (nonatomic) dispatch_semaphore_t lock;
@@ -96,9 +92,6 @@
 
 #pragma mark private
 -(SEL)aliasForSelector:(SEL)selector{
-    //线程安全
-
-    
     SEL aliaSelector = (__bridge void *)[XBMsgThrottle.sharedThrottle.aliasTable objectForKey:(__bridge id)(void *)selector];
     if (aliaSelector == nil) {
         NSString *selectorName = NSStringFromSelector(selector);

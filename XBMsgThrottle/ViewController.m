@@ -9,60 +9,44 @@
 #import "ViewController.h"
 #import "XBMsgThrottle.h"
 
-@interface ViewController ()
-@property (nonatomic,strong) XBThrottleItem *item;
-@property (nonatomic,strong) XBThrottleItem *item2;
+@interface ViewController ()<UIScrollViewDelegate>
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createUI];
     
-
-    
-
+    //对scrollViewDidScroll：进行回调限制 每一秒回调一次
+    [self limitSelector:@selector(scrollViewDidScroll:) durationInterval:1 mode:XBThrottleModePerBegin];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
--(void)btnClick{
-    NSLog(@"btnClick");
-    [XBMsgThrottle.sharedThrottle removeItem:self.item];
-    [XBMsgThrottle.sharedThrottle removeItem:self.item2];
-}
-
--(void)btn2Click{
+-(void)createUI{
+    UIScrollView *scrollView = UIScrollView.new;
+    scrollView.frame = self.view.bounds;
+    scrollView.contentSize = scrollView.frame.size;
+    scrollView.alwaysBounceVertical = YES;
+    [self.view addSubview:scrollView];
+    scrollView.backgroundColor = UIColor.redColor;
+    scrollView.delegate = self;
     
-}
-
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    NSLog(@"touchesBegan");
-//    [[ViewController class] clsT1];
-//    [[ViewController class] clsT1];
     
-    [self test1];
-    [self test2];
-}
-
-+(void)clsT1{
-    NSLog(@"clsT1");
-}
-+(void)clsT2{
-    NSLog(@"clsT2");
+    UIView *testView = UIView.new;
+    testView.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, 200);
+    testView.backgroundColor = UIColor.yellowColor;
+    [scrollView addSubview:testView];
 }
 
 
--(void)test1{
-    NSLog(@"test1");
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    NSLog(@"scrollViewDidScroll");
 }
 
--(void)test2{
-    NSLog(@"test2");
-}
 
 @end
