@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createUI];
     //对scrollViewDidScroll：进行回调限制 每一秒回调一次
     [self limitSelector:@selector(scrollViewDidScroll:) durationInterval:1 mode:XBThrottleModePerBegin];
 }
