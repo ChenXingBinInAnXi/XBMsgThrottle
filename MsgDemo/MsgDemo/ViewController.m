@@ -10,7 +10,7 @@
 #import "XBMsgThrottle.h"
 
 @interface ViewController ()<UIScrollViewDelegate>
-
+@property (nonatomic,strong) XBThrottleItem *item;
 @end
 
 @implementation ViewController
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     [self createUI];
     //对scrollViewDidScroll：进行回调限制 每一秒回调一次
-    [self limitSelector:@selector(scrollViewDidScroll:) durationInterval:1 mode:XBThrottleModePerBegin];
+    self.item = [XBMsgThrottle throttleTarget:self selector:@selector(scrollViewDidScroll:) durationInterval:1  mode:XBThrottleModePerBegin];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,11 +40,25 @@
     testView.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, 200);
     testView.backgroundColor = UIColor.yellowColor;
     [scrollView addSubview:testView];
+    
+    
+    UIButton *removeBtn = UIButton.new;
+    removeBtn.frame = CGRectMake(0, 100, 100, 100);
+    removeBtn.backgroundColor = UIColor.blueColor;
+    [scrollView addSubview:removeBtn];
+    [removeBtn addTarget:self action:@selector(removeBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [removeBtn setTitle:@"移除" forState:UIControlStateNormal];
+    
+    
 }
 
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     NSLog(@"scrollViewDidScroll");
+}
+
+-(void)removeBtnClick{
+    [XBMsgThrottle.sharedThrottle removeItem:self.item];
 }
 
 
