@@ -8,9 +8,9 @@ MessageThrottle：
 
 XBMsgThrottle：
 1.支持类方法
-2.支持天津多个Item，移除的时候不影响。
+2.支持添加多个Item，移除的时候不影响。
 3.更加简化的代码逻辑。
-    
+
 
 
 + (XBThrottleItem *)throttleTarget:(id)target selector:(SEL)selector durationInterval:(NSTimeInterval)durationInterval;
