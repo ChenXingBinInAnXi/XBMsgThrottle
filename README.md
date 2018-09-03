@@ -4,10 +4,10 @@ XBMsgThrottle
 
 MessageThrottle：
 1.不支持类方法。
-2.添加Rule，然后进行移除的时候，会崩溃。
+2.添加多个Rule，然后进行移除的时候，会崩溃。
 
 XBMsgThrottle：
-1.支持类方法
+1.支持类方法。
 2.支持添加多个Item，移除的时候不影响。
 3.更加简化的代码逻辑。
 
